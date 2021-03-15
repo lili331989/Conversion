@@ -10,8 +10,6 @@ public class Quantities {
     private String firstQuantity="";
     private String secondQuantity="";
     private Boolean found;
-//    новая строка
-//    новая строка
     private Double multiplier;
 
     public HashMap<String, HashMap<String, Double>> getQuantityMap() {
