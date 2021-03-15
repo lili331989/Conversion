@@ -20,7 +20,7 @@ public class Quantities {
         this.quantityMap = quantityMap;
     }
 
-    // добавление соотношения двух величин quantityName1 и quantityName2 с коэффициентом ratio
+    // добавил соотношения двух величин quantityName1 и quantityName2 с коэффициентом ratio
     public void addRatio(String quantityName1, String quantityName2,Double ratio) {
         if (!quantityMap.containsKey(quantityName1)) quantityMap.put(quantityName1, new HashMap<String,Double>());
         if (!quantityMap.containsKey(quantityName2)) quantityMap.put(quantityName2, new HashMap<String,Double>());
