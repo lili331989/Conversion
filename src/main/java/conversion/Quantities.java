@@ -30,7 +30,7 @@ public class Quantities {
         setOfRatio1.put(quantityName2, ratio);
         setOfRatio2.put(quantityName1, 1/ratio);
     }
-    //перевод величины
+    //метод для перевода величины
     //на входе - строка со знаком вопроса, на выходе - строка с определенным коэффициентом
     public String convert(String str){
         String[] lines=str.split(" ");
